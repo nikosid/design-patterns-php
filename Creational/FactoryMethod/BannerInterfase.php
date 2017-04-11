@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
-interface EventInterfase
+interface BannerInterfase
 {
-    public function getType();
+    public function show();
 }

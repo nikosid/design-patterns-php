@@ -2,11 +2,11 @@
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
-class Cinema implements EventInterfase
+class CodeBanner implements BannerInterfase
 {
-    const TYPE = 'cinema';
+    const TYPE = 'codeBanner';
 
-    public function getType()
+    public function show()
     {
         return self::TYPE;
     }
