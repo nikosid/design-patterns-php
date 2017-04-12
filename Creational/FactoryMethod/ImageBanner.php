@@ -8,6 +8,6 @@ class ImageBanner implements BannerInterfase
 
     public function show()
     {
-        return self::TYPE;
+        return '<img src="..." />';
     }
 }

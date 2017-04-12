@@ -8,6 +8,6 @@ class SwfBanner implements BannerInterfase
 
     public function show()
     {
-        return self::TYPE;
+        return '<object>...</object>';
     }
 }

@@ -8,6 +8,6 @@ class CodeBanner implements BannerInterfase
 
     public function show()
     {
-        return self::TYPE;
+        return '<script>...</script>';
     }
 }
